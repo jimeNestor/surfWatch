@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EDB4CC92BF2EC78002315BF /* surfWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDB4CC82BF2EC78002315BF /* surfWatchApp.swift */; };
+		8EDB4CCB2BF2EC78002315BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDB4CCA2BF2EC78002315BF /* ContentView.swift */; };
+		8EDB4CCD2BF2EC79002315BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDB4CCC2BF2EC79002315BF /* Assets.xcassets */; };
+		8EDB4CD02BF2EC79002315BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDB4CCF2BF2EC79002315BF /* Preview Assets.xcassets */; };
+		8EDB4CDA2BF2EC79002315BF /* surfWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDB4CD92BF2EC79002315BF /* surfWatch_Watch_AppTests.swift */; };
+		8EDB4CE42BF2EC79002315BF /* surfWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDB4CE32BF2EC79002315BF /* surfWatch_Watch_AppUITests.swift */; };
+		8EDB4CE62BF2EC79002315BF /* surfWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDB4CE52BF2EC79002315BF /* surfWatch_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EDB4CD62BF2EC79002315BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EDB4CBD2BF2EC78002315BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EDB4CC42BF2EC78002315BF;
+			remoteInfo = "surfWatch Watch App";
+		};
+		8EDB4CE02BF2EC79002315BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EDB4CBD2BF2EC78002315BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EDB4CC42BF2EC78002315BF;
+			remoteInfo = "surfWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EDB4CC52BF2EC78002315BF /* surfWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "surfWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EDB4CC82BF2EC78002315BF /* surfWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surfWatchApp.swift; sourceTree = "<group>"; };
+		8EDB4CCA2BF2EC78002315BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EDB4CCC2BF2EC79002315BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EDB4CCF2BF2EC79002315BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EDB4CD52BF2EC79002315BF /* surfWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "surfWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EDB4CD92BF2EC79002315BF /* surfWatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surfWatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		8EDB4CDF2BF2EC79002315BF /* surfWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "surfWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EDB4CE32BF2EC79002315BF /* surfWatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surfWatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		8EDB4CE52BF2EC79002315BF /* surfWatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surfWatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EDB4CC22BF2EC78002315BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EDB4CD22BF2EC79002315BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EDB4CDC2BF2EC79002315BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EDB4CBC2BF2EC78002315BF = {
+			isa = PBXGroup;
+			children = (
+				8EDB4CC72BF2EC78002315BF /* surfWatch Watch App */,
+				8EDB4CD82BF2EC79002315BF /* surfWatch Watch AppTests */,
+				8EDB4CE22BF2EC79002315BF /* surfWatch Watch AppUITests */,
+				8EDB4CC62BF2EC78002315BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EDB4CC62BF2EC78002315BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EDB4CC52BF2EC78002315BF /* surfWatch Watch App.app */,
+				8EDB4CD52BF2EC79002315BF /* surfWatch Watch AppTests.xctest */,
+				8EDB4CDF2BF2EC79002315BF /* surfWatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EDB4CC72BF2EC78002315BF /* surfWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				8EDB4CC82BF2EC78002315BF /* surfWatchApp.swift */,
+				8EDB4CCA2BF2EC78002315BF /* ContentView.swift */,
+				8EDB4CCC2BF2EC79002315BF /* Assets.xcassets */,
+				8EDB4CCE2BF2EC79002315BF /* Preview Content */,
+			);
+			path = "surfWatch Watch App";
+			sourceTree = "<group>";
+		};
+		8EDB4CCE2BF2EC79002315BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8EDB4CCF2BF2EC79002315BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EDB4CD82BF2EC79002315BF /* surfWatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EDB4CD92BF2EC79002315BF /* surfWatch_Watch_AppTests.swift */,
+			);
+			path = "surfWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		8EDB4CE22BF2EC79002315BF /* surfWatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EDB4CE32BF2EC79002315BF /* surfWatch_Watch_AppUITests.swift */,
+				8EDB4CE52BF2EC79002315BF /* surfWatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "surfWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EDB4CC42BF2EC78002315BF /* surfWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EDB4CE92BF2EC79002315BF /* Build configuration list for PBXNativeTarget "surfWatch Watch App" */;
+			buildPhases = (
+				8EDB4CC12BF2EC78002315BF /* Sources */,
+				8EDB4CC22BF2EC78002315BF /* Frameworks */,
+				8EDB4CC32BF2EC78002315BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "surfWatch Watch App";
+			productName = "surfWatch Watch App";
+			productReference = 8EDB4CC52BF2EC78002315BF /* surfWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EDB4CD42BF2EC79002315BF /* surfWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EDB4CEC2BF2EC79002315BF /* Build configuration list for PBXNativeTarget "surfWatch Watch AppTests" */;
+			buildPhases = (
+				8EDB4CD12BF2EC79002315BF /* Sources */,
+				8EDB4CD22BF2EC79002315BF /* Frameworks */,
+				8EDB4CD32BF2EC79002315BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EDB4CD72BF2EC79002315BF /* PBXTargetDependency */,
+			);
+			name = "surfWatch Watch AppTests";
+			productName = "surfWatch Watch AppTests";
+			productReference = 8EDB4CD52BF2EC79002315BF /* surfWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EDB4CDE2BF2EC79002315BF /* surfWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EDB4CEF2BF2EC79002315BF /* Build configuration list for PBXNativeTarget "surfWatch Watch AppUITests" */;
+			buildPhases = (
+				8EDB4CDB2BF2EC79002315BF /* Sources */,
+				8EDB4CDC2BF2EC79002315BF /* Frameworks */,
+				8EDB4CDD2BF2EC79002315BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EDB4CE12BF2EC79002315BF /* PBXTargetDependency */,
+			);
+			name = "surfWatch Watch AppUITests";
+			productName = "surfWatch Watch AppUITests";
+			productReference = 8EDB4CDF2BF2EC79002315BF /* surfWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EDB4CBD2BF2EC78002315BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					8EDB4CC42BF2EC78002315BF = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					8EDB4CD42BF2EC79002315BF = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 8EDB4CC42BF2EC78002315BF;
+					};
+					8EDB4CDE2BF2EC79002315BF = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 8EDB4CC42BF2EC78002315BF;
+					};
+				};
+			};
+			buildConfigurationList = 8EDB4CC02BF2EC78002315BF /* Build configuration list for PBXProject "surfWatch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EDB4CBC2BF2EC78002315BF;
+			productRefGroup = 8EDB4CC62BF2EC78002315BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EDB4CC42BF2EC78002315BF /* surfWatch Watch App */,
+				8EDB4CD42BF2EC79002315BF /* surfWatch Watch AppTests */,
+				8EDB4CDE2BF2EC79002315BF /* surfWatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EDB4CC32BF2EC78002315BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDB4CD02BF2EC79002315BF /* Preview Assets.xcassets in Resources */,
+				8EDB4CCD2BF2EC79002315BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EDB4CD32BF2EC79002315BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EDB4CDD2BF2EC79002315BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EDB4CC12BF2EC78002315BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDB4CCB2BF2EC78002315BF /* ContentView.swift in Sources */,
+				8EDB4CC92BF2EC78002315BF /* surfWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EDB4CD12BF2EC79002315BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDB4CDA2BF2EC79002315BF /* surfWatch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EDB4CDB2BF2EC79002315BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDB4CE62BF2EC79002315BF /* surfWatch_Watch_AppUITestsLaunchTests.swift in Sources */,
+				8EDB4CE42BF2EC79002315BF /* surfWatch_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EDB4CD72BF2EC79002315BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EDB4CC42BF2EC78002315BF /* surfWatch Watch App */;
+			targetProxy = 8EDB4CD62BF2EC79002315BF /* PBXContainerItemProxy */;
+		};
+		8EDB4CE12BF2EC79002315BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EDB4CC42BF2EC78002315BF /* surfWatch Watch App */;
+			targetProxy = 8EDB4CE02BF2EC79002315BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8EDB4CE72BF2EC79002315BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EDB4CE82BF2EC79002315BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8EDB4CEA2BF2EC79002315BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"surfWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = DTL8ZS76G6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = surfWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		8EDB4CEB2BF2EC79002315BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"surfWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = DTL8ZS76G6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = surfWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		8EDB4CED2BF2EC79002315BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DTL8ZS76G6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jimenez.nestor.surfWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/surfWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/surfWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		8EDB4CEE2BF2EC79002315BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DTL8ZS76G6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jimenez.nestor.surfWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/surfWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/surfWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		8EDB4CF02BF2EC79002315BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DTL8ZS76G6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jimenez.nestor.surfWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "surfWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		8EDB4CF12BF2EC79002315BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DTL8ZS76G6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jimenez.nestor.surfWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "surfWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EDB4CC02BF2EC78002315BF /* Build configuration list for PBXProject "surfWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EDB4CE72BF2EC79002315BF /* Debug */,
+				8EDB4CE82BF2EC79002315BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EDB4CE92BF2EC79002315BF /* Build configuration list for PBXNativeTarget "surfWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EDB4CEA2BF2EC79002315BF /* Debug */,
+				8EDB4CEB2BF2EC79002315BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EDB4CEC2BF2EC79002315BF /* Build configuration list for PBXNativeTarget "surfWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EDB4CED2BF2EC79002315BF /* Debug */,
+				8EDB4CEE2BF2EC79002315BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EDB4CEF2BF2EC79002315BF /* Build configuration list for PBXNativeTarget "surfWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EDB4CF02BF2EC79002315BF /* Debug */,
+				8EDB4CF12BF2EC79002315BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EDB4CBD2BF2EC78002315BF /* Project object */;
+}

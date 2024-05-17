@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E93BD0C2BF72B120021E420 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E93BD0B2BF72B120021E420 /* WeatherData.swift */; };
 		8EDB4CC92BF2EC78002315BF /* surfWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDB4CC82BF2EC78002315BF /* surfWatchApp.swift */; };
 		8EDB4CCB2BF2EC78002315BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDB4CCA2BF2EC78002315BF /* ContentView.swift */; };
 		8EDB4CCD2BF2EC79002315BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDB4CCC2BF2EC79002315BF /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E93BD0B2BF72B120021E420 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		8EDB4CC52BF2EC78002315BF /* surfWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "surfWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDB4CC82BF2EC78002315BF /* surfWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surfWatchApp.swift; sourceTree = "<group>"; };
 		8EDB4CCA2BF2EC78002315BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				8EDB4CCA2BF2EC78002315BF /* ContentView.swift */,
 				8EDB4CCC2BF2EC79002315BF /* Assets.xcassets */,
 				8EDB4CCE2BF2EC79002315BF /* Preview Content */,
+				8E93BD0B2BF72B120021E420 /* WeatherData.swift */,
 			);
 			path = "surfWatch Watch App";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EDB4CCB2BF2EC78002315BF /* ContentView.swift in Sources */,
+				8E93BD0C2BF72B120021E420 /* WeatherData.swift in Sources */,
 				8EDB4CC92BF2EC78002315BF /* surfWatchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
